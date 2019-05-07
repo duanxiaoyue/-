@@ -1,0 +1,1671 @@
+  bash arg: -p
+  bash arg: me.tictok.linear
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-native-crashes
+  bash arg: --ignore-security-exceptions
+  bash arg: --throttle
+  bash arg: 300
+  bash arg: --pct-touch
+  bash arg: 50
+  bash arg: --pct-motion
+  bash arg: 5
+  bash arg: --pct-rotation
+  bash arg: 5
+  bash arg: --pct-majornav
+  bash arg: 5
+  bash arg: --pct-syskeys
+  bash arg: 5
+  bash arg: --pct-appswitch
+  bash arg: 5
+  bash arg: --pct-flip
+  bash arg: 10
+  bash arg: --pct-anyevent
+  bash arg: 5
+  bash arg: 1000
+:Monkey: seed=1557482445346 count=1000
+:AllowPackage: me.tictok.linear
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   - NOT USING main activity com.android.dialer.app.DialtactsActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.email.activity.Welcome (from package com.android.email)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.messaging.ui.conversationlist.ConversationListActivity (from package com.android.messaging)
+//   - NOT USING main activity com.android.music.MusicBrowserActivity (from package com.android.music)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity io.appium.android.apis.ApiDemos (from package io.appium.android.apis)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.customlocale2.CustomLocaleActivity (from package com.android.customlocale2)
+//   - NOT USING main activity com.android.development.Development (from package com.android.development)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.android.quicksearchbox.SearchActivity (from package com.android.quicksearchbox)
+//   - NOT USING main activity org.chromium.webview_shell.WebViewBrowserActivity (from package org.chromium.webview_shell)
+//   - NOT USING main activity com.cwx.timebank.MainActivity (from package com.cwx.timebank)
+//   - NOT USING main activity com.example.android.notepad.NotesList (from package com.example.lenovo.note)
+//   - NOT USING main activity com.example.lenovo.notepad.MainActivity (from package com.example.lenovo.notepad)
+//   - NOT USING main activity com.example.lx.solarfragment.LoginActivity (from package com.example.lx.solarfragment)
+//   - NOT USING main activity com.example.todolist.LoginActivity (from package com.example.todolist)
+//   - NOT USING main activity io.appium.settings.Settings (from package io.appium.settings)
+//   + Using main activity me.tictok.linear.WelcomeActivity (from package me.tictok.linear)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.launcher3.Launcher (from package com.android.launcher3)
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+// Seeded: 1557482445346
+// Event percentages:
+//   0: 50.0%
+//   1: 5.0%
+//   2: 0.47619048%
+//   3: 3.5714285%
+//   4: 5.0%
+//   5: -0.0%
+//   6: 5.952381%
+//   7: 5.0%
+//   8: 5.0%
+//   9: 5.0%
+//   10: 10.0%
+//   11: 5.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(71.0,1595.0)
+:Sending Touch (ACTION_MOVE): 0:(59.27693,1590.4296)
+:Sending Touch (ACTION_MOVE): 0:(44.25681,1589.291)
+:Sending Touch (ACTION_MOVE): 0:(36.559834,1582.6812)
+:Sending Touch (ACTION_MOVE): 0:(28.055489,1577.0969)
+:Sending Touch (ACTION_MOVE): 0:(12.945519,1575.2291)
+:Sending Touch (ACTION_MOVE): 0:(5.3529654,1570.5848)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1570.2078)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1563.889)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1560.5336)
+:Sending Touch (ACTION_UP): 0:(0.0,1558.7256)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,928.0)
+:Sending Touch (ACTION_UP): 0:(967.91144,931.5663)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(993.0,826.0)
+:Sending Touch (ACTION_UP): 0:(994.20264,824.7855)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1435.0,1323.0)
+:Sending Touch (ACTION_UP): 0:(1440.0,1315.3491)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1170.0,1925.0)
+:Sending Touch (ACTION_UP): 0:(1179.3567,1938.1235)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1120.0,115.0)
+:Sending Touch (ACTION_MOVE): 0:(1127.6486,109.20918)
+:Sending Touch (ACTION_MOVE): 0:(1130.8221,102.36097)
+:Sending Touch (ACTION_MOVE): 0:(1137.4224,99.45944)
+:Sending Touch (ACTION_UP): 0:(1143.2781,96.13502)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(895.0,484.0)
+:Sending Touch (ACTION_UP): 0:(887.76154,486.75064)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 112    // KEYCODE_FORWARD_DEL
+:Sending Key (ACTION_UP): 112    // KEYCODE_FORWARD_DEL
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Key (ACTION_DOWN): 160    // KEYCODE_NUMPAD_ENTER
+:Sending Key (ACTION_UP): 160    // KEYCODE_NUMPAD_ENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1015.0,236.0)
+:Sending Touch (ACTION_UP): 0:(1011.6223,253.88678)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.android.packageinstaller cmp=com.android.packageinstaller/.permission.ui.GrantPermissionsActivity } in package com.android.packageinstaller
+:Sending Touch (ACTION_DOWN): 0:(198.0,1493.0)
+:Sending Touch (ACTION_UP): 0:(197.28795,1494.7919)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1264.0,307.0)
+:Sending Touch (ACTION_UP): 0:(1267.7727,307.75668)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(614.0,123.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(618.6411,115.40927)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 228    // KEYCODE_12
+:Sending Key (ACTION_UP): 228    // KEYCODE_12
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(503.0,1495.0)
+:Sending Touch (ACTION_UP): 0:(501.72418,1494.44)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(5.0,1577.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1581.2286)
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=true
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1119.0,764.0)
+:Sending Touch (ACTION_UP): 0:(1098.0444,767.1941)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(508.0,139.0)
+:Sending Touch (ACTION_UP): 0:(517.40234,141.35017)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(384.0,2388.0)
+:Sending Touch (ACTION_MOVE): 0:(406.7683,2378.9927)
+:Sending Touch (ACTION_MOVE): 0:(424.95844,2360.1746)
+:Sending Touch (ACTION_UP): 0:(425.39536,2348.1987)
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(648.0,1343.0)
+:Sending Touch (ACTION_UP): 0:(650.8607,1342.7732)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.explore.FindContentActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(282.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(297.64,1322.2654)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.explore.FindContentDetailsActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1821.0,552.0)
+:Sending Touch (ACTION_UP): 0:(1819.6642,554.24896)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1133.0,275.0)
+:Sending Touch (ACTION_MOVE): 0:(1124.6455,284.0109)
+:Sending Touch (ACTION_MOVE): 0:(1116.0507,292.87643)
+:Sending Touch (ACTION_MOVE): 0:(1113.3065,304.56802)
+:Sending Touch (ACTION_MOVE): 0:(1112.5145,308.48395)
+:Sending Touch (ACTION_MOVE): 0:(1101.6792,311.94086)
+:Sending Touch (ACTION_MOVE): 0:(1090.4124,312.64484)
+:Sending Touch (ACTION_MOVE): 0:(1076.597,323.61172)
+:Sending Touch (ACTION_MOVE): 0:(1072.4067,326.5094)
+:Sending Touch (ACTION_UP): 0:(1065.9321,328.88663)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1844.0,540.0)
+:Sending Touch (ACTION_UP): 0:(1847.7573,546.91394)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    //[calendar_time:2019-05-07 08:52:21.846  system_uptime:173525148]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(979.8173,1176.5938)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(913.0,301.0)
+:Sending Touch (ACTION_MOVE): 0:(913.85315,282.70776)
+:Sending Touch (ACTION_MOVE): 0:(915.1841,280.19754)
+:Sending Touch (ACTION_MOVE): 0:(927.98517,266.90872)
+:Sending Touch (ACTION_MOVE): 0:(931.3478,254.71819)
+:Sending Touch (ACTION_UP): 0:(948.22205,236.88574)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(1981.0,493.0)
+:Sending Touch (ACTION_UP): 0:(1997.998,477.75378)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(317.0,48.0)
+:Sending Touch (ACTION_UP): 0:(316.2529,50.88152)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+    // activityResuming(me.tictok.linear)
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(590.0,547.0)
+:Sending Touch (ACTION_UP): 0:(577.4548,545.38544)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(969.0,2113.0)
+:Sending Touch (ACTION_UP): 0:(971.6307,2111.4163)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(23.0,2135.0)
+:Sending Touch (ACTION_UP): 0:(25.32201,2116.9592)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(644.0,945.0)
+:Sending Touch (ACTION_UP): 0:(646.5836,950.8108)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(904.0,2017.0)
+:Sending Touch (ACTION_UP): 0:(896.65027,2002.7072)
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(557.0,916.0)
+:Sending Touch (ACTION_UP): 0:(560.7511,905.7263)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2219.0,879.0)
+:Sending Touch (ACTION_UP): 0:(2220.653,880.1959)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(671.0,811.0)
+:Sending Touch (ACTION_UP): 0:(681.0911,809.5794)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1653.0,291.0)
+:Sending Touch (ACTION_UP): 0:(1652.1486,297.73056)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2295.0,937.0)
+:Sending Touch (ACTION_UP): 0:(2297.7651,938.5588)
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(1638.0,298.0)
+:Sending Touch (ACTION_UP): 0:(1639.8953,301.90912)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 10    // KEYCODE_3
+:Sending Key (ACTION_UP): 10    // KEYCODE_3
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 151    // KEYCODE_NUMPAD_7
+:Sending Key (ACTION_UP): 151    // KEYCODE_NUMPAD_7
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(683.0,233.0)
+:Sending Touch (ACTION_UP): 0:(678.45496,236.19115)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(382.0,1663.0)
+:Sending Touch (ACTION_UP): 0:(394.50385,1666.7266)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1431.0,1206.0)
+:Sending Touch (ACTION_UP): 0:(1435.5208,1218.8905)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(109.0,1493.0)
+:Sending Touch (ACTION_UP): 0:(110.301476,1482.4879)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1131.0,451.0)
+:Sending Touch (ACTION_UP): 0:(1120.1406,464.1056)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(939.0,2038.0)
+:Sending Touch (ACTION_UP): 0:(930.03687,2036.4539)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(692.0,1999.0)
+:Sending Touch (ACTION_UP): 0:(678.4139,1999.6691)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(300.0,1785.0)
+:Sending Touch (ACTION_UP): 0:(299.79486,1787.7017)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(253.0,1672.0)
+:Sending Touch (ACTION_UP): 0:(249.9617,1681.6614)
+    //[calendar_time:2019-05-07 08:52:37.247  system_uptime:173540549]
+    // Sending event #200
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+    //[calendar_time:2019-05-07 08:52:37.555  system_uptime:173540856]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(1283.0,1114.0)
+:Sending Touch (ACTION_UP): 0:(1280.3927,1107.904)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(295.0,2233.0)
+:Sending Touch (ACTION_UP): 0:(280.50543,2232.2505)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(155.0,466.0)
+:Sending Touch (ACTION_UP): 0:(154.93744,478.38147)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(3.0,1552.0)
+:Sending Touch (ACTION_UP): 0:(9.338993,1553.5345)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 80    // KEYCODE_FOCUS
+:Sending Key (ACTION_UP): 80    // KEYCODE_FOCUS
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1.0)
+:Sending Touch (ACTION_UP): 0:(1071.445,0.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1099.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(1096.0377,1412.7762)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+    // activityResuming(me.tictok.linear)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 56    // KEYCODE_PERIOD
+:Sending Key (ACTION_UP): 56    // KEYCODE_PERIOD
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(635.0,1872.0)
+:Sending Touch (ACTION_UP): 0:(624.40234,1874.1007)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(815.0,1638.0)
+:Sending Touch (ACTION_UP): 0:(814.65784,1652.938)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(662.0,1879.0)
+:Sending Touch (ACTION_UP): 0:(668.444,1878.6772)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(752.0,451.0)
+:Sending Touch (ACTION_UP): 0:(752.4567,448.5166)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(92.0,2122.0)
+:Sending Touch (ACTION_MOVE): 0:(91.738846,2127.166)
+:Sending Touch (ACTION_MOVE): 0:(80.57825,2130.2756)
+:Sending Touch (ACTION_MOVE): 0:(72.723564,2137.3806)
+:Sending Touch (ACTION_MOVE): 0:(71.05588,2138.901)
+:Sending Touch (ACTION_UP): 0:(62.215157,2144.336)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(543.0,1452.0)
+:Sending Touch (ACTION_UP): 0:(543.0858,1452.1442)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending rotation degree=1, persist=false
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+    // activityResuming(me.tictok.linear)
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1304.0,1351.0)
+:Sending Touch (ACTION_UP): 0:(1304.1515,1365.8998)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 83    // KEYCODE_NOTIFICATION
+:Sending Key (ACTION_UP): 83    // KEYCODE_NOTIFICATION
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(602.0,426.0)
+:Sending Touch (ACTION_UP): 0:(598.17993,420.68253)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(917.0,2167.0)
+:Sending Touch (ACTION_UP): 0:(917.4043,2167.0127)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(788.0,128.0)
+:Sending Touch (ACTION_UP): 0:(797.61554,128.86748)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(218.0,829.0)
+:Sending Touch (ACTION_UP): 0:(217.8779,813.3383)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1146.0,1561.0)
+:Sending Touch (ACTION_UP): 0:(1151.2297,1563.2946)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(334.0,123.0)
+:Sending Touch (ACTION_UP): 0:(334.90414,126.942406)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(330.0,1830.0)
+:Sending Touch (ACTION_UP): 0:(326.9108,1820.8785)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 218    // KEYCODE_KANA
+:Sending Key (ACTION_UP): 218    // KEYCODE_KANA
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1279.0,2043.0)
+:Sending Touch (ACTION_MOVE): 0:(1279.6724,2035.6559)
+:Sending Touch (ACTION_MOVE): 0:(1279.8928,2025.7238)
+:Sending Touch (ACTION_MOVE): 0:(1279.9325,2010.5767)
+:Sending Touch (ACTION_MOVE): 0:(1280.3842,2004.7491)
+:Sending Touch (ACTION_MOVE): 0:(1280.9496,2000.7761)
+:Sending Touch (ACTION_UP): 0:(1281.4453,1998.2249)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(926.0,1691.0)
+:Sending Touch (ACTION_UP): 0:(918.5901,1690.7516)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(109.0,2367.0)
+    //[calendar_time:2019-05-07 08:52:52.903  system_uptime:173556204]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(107.328384,2358.97)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1244.0,485.0)
+:Sending Touch (ACTION_UP): 0:(1262.2769,497.64313)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(215.0,2238.0)
+:Sending Touch (ACTION_UP): 0:(207.50388,2247.5242)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.CourseActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(2331.0,804.0)
+:Sending Touch (ACTION_UP): 0:(2331.779,803.23)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(2168.0,694.0)
+:Sending Touch (ACTION_UP): 0:(2170.245,694.095)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1697.0,1114.0)
+:Sending Touch (ACTION_UP): 0:(1694.2633,1112.7383)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(844.0,686.0)
+:Sending Touch (ACTION_UP): 0:(833.85645,667.72235)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1595.0,500.0)
+:Sending Touch (ACTION_UP): 0:(1593.0057,489.47122)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(526.0,295.0)
+:Sending Touch (ACTION_UP): 0:(517.31146,296.23358)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2086.0,626.0)
+:Sending Touch (ACTION_UP): 0:(2083.758,615.4531)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1387.0,1476.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(1387.5685,1476.2279)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending rotation degree=1, persist=false
+Sleeping for 300 milliseconds
+:Sending rotation degree=2, persist=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1241.0,534.0)
+:Sending Touch (ACTION_UP): 0:(1250.9373,527.64233)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 120    // KEYCODE_SYSRQ
+:Sending Key (ACTION_UP): 120    // KEYCODE_SYSRQ
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,752.0)
+:Sending Touch (ACTION_UP): 0:(227.63649,740.0153)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1024.0,1700.0)
+:Sending Touch (ACTION_UP): 0:(1030.1931,1692.3221)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 65    // KEYCODE_ENVELOPE
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.email/.activity.Welcome } in package com.android.email
+:Sending Key (ACTION_UP): 65    // KEYCODE_ENVELOPE
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(105.0,739.0)
+:Sending Touch (ACTION_UP): 0:(114.561455,729.77454)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,1995.0)
+:Sending Touch (ACTION_UP): 0:(292.34668,2015.0619)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(644.0,1580.0)
+:Sending Touch (ACTION_UP): 0:(651.3185,1560.103)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(946.0,2130.0)
+:Sending Touch (ACTION_UP): 0:(946.12,2137.7305)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(217.0,664.0)
+:Sending Touch (ACTION_UP): 0:(204.06613,663.1732)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1266.0,1681.0)
+:Sending Touch (ACTION_UP): 0:(1271.8981,1667.9938)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1217.0,1918.0)
+:Sending Touch (ACTION_UP): 0:(1215.9161,1917.2245)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(567.0,465.0)
+:Sending Touch (ACTION_UP): 0:(568.0075,474.25702)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1091.0,810.0)
+:Sending Touch (ACTION_UP): 0:(1081.7935,808.9009)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(280.0,1928.0)
+:Sending Touch (ACTION_UP): 0:(291.95215,1932.115)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(89.0,1253.0)
+:Sending Touch (ACTION_UP): 0:(79.67921,1264.2166)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(493.0,985.0)
+:Sending Touch (ACTION_UP): 0:(487.9074,976.75793)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(871.0,262.0)
+:Sending Touch (ACTION_UP): 0:(867.9837,260.56866)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(59.0,1301.0)
+:Sending Touch (ACTION_UP): 0:(52.8327,1300.7052)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1759.0,1408.0)
+:Sending Touch (ACTION_UP): 0:(1747.3612,1412.4945)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1642.0,1148.0)
+:Sending Touch (ACTION_UP): 0:(1633.0806,1151.5469)
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2089.0,23.0)
+:Sending Touch (ACTION_UP): 0:(2081.8777,43.079914)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(197.0,403.0)
+    //[calendar_time:2019-05-07 08:53:11.530  system_uptime:173574831]
+    // Sending event #400
+:Sending Touch (ACTION_UP): 0:(195.05766,412.50098)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1261.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(1250.7706,1414.7152)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,777.0)
+:Sending Touch (ACTION_UP): 0:(364.31903,770.06274)
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1386.0,148.0)
+:Sending Touch (ACTION_UP): 0:(1375.2675,149.56802)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(444.0,645.0)
+:Sending Touch (ACTION_UP): 0:(461.2922,644.8232)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(268.0,847.0)
+:Sending Touch (ACTION_UP): 0:(256.66092,855.6117)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1210.0,655.0)
+:Sending Touch (ACTION_UP): 0:(1227.1387,674.5261)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(958.0,694.0)
+:Sending Touch (ACTION_UP): 0:(953.4412,692.89166)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(800.0,2144.0)
+:Sending Touch (ACTION_UP): 0:(796.5861,2138.3625)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+:Sending rotation degree=0, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending rotation degree=1, persist=true
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(669.0,1280.0)
+:Sending Touch (ACTION_UP): 0:(680.2753,1290.0481)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1423.0,995.0)
+:Sending Touch (ACTION_UP): 0:(1408.9564,994.66675)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1889.0,1236.0)
+:Sending Touch (ACTION_UP): 0:(1889.9645,1241.9017)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(415.92822,1367.7576)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Key (ACTION_DOWN): 62    // KEYCODE_SPACE
+:Sending Key (ACTION_UP): 62    // KEYCODE_SPACE
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(755.0,168.0)
+:Sending Touch (ACTION_UP): 0:(762.62524,152.72452)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1160.0,1414.0)
+:Sending Touch (ACTION_UP): 0:(1164.1198,1410.4146)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1499.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(1488.9565,1410.0511)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(283.0,1428.0)
+:Sending Touch (ACTION_UP): 0:(298.22757,1425.7599)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 17    // KEYCODE_STAR
+:Sending Key (ACTION_UP): 17    // KEYCODE_STAR
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1198.0,1408.0)
+:Sending Touch (ACTION_UP): 0:(1194.4479,1404.6051)
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2058.0,1114.0)
+:Sending Touch (ACTION_UP): 0:(2057.1423,1109.3271)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(818.0,50.0)
+:Sending Touch (ACTION_UP): 0:(823.31445,55.147434)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(144.0,33.0)
+:Sending Touch (ACTION_UP): 0:(148.138,26.519445)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 147    // KEYCODE_NUMPAD_3
+:Sending Key (ACTION_UP): 147    // KEYCODE_NUMPAD_3
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(242.0,411.0)
+:Sending Touch (ACTION_UP): 0:(238.33788,407.6254)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1031.0,1606.0)
+:Sending Touch (ACTION_UP): 0:(1030.8999,1590.2965)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(306.0,1327.0)
+:Sending Touch (ACTION_UP): 0:(313.1373,1328.9601)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,180.0)
+:Sending Touch (ACTION_UP): 0:(589.2966,177.18759)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(965.0,1197.0)
+:Sending Touch (ACTION_UP): 0:(966.05475,1199.7881)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(343.0,1277.0)
+:Sending Touch (ACTION_UP): 0:(335.22128,1278.7843)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1744.0,1346.0)
+:Sending Touch (ACTION_UP): 0:(1740.6302,1346.0677)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2236.0,865.0)
+:Sending Touch (ACTION_MOVE): 0:(2231.4497,864.23584)
+:Sending Touch (ACTION_MOVE): 0:(2221.789,864.0923)
+:Sending Touch (ACTION_MOVE): 0:(2211.663,862.46625)
+:Sending Touch (ACTION_UP): 0:(2202.1892,857.6071)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1334.0,704.0)
+:Sending Touch (ACTION_UP): 0:(1333.2478,703.4024)
+    //[calendar_time:2019-05-07 08:53:30.289  system_uptime:173593591]
+    // Sending event #500
+Sleeping for 300 milliseconds
+    //[calendar_time:2019-05-07 08:53:30.604  system_uptime:173593905]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(1439.0,1360.0)
+:Sending Touch (ACTION_UP): 0:(1426.5728,1358.5159)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(950.0,1203.0)
+:Sending Touch (ACTION_UP): 0:(944.54456,1202.9833)
+Sleeping for 300 milliseconds
+:Sending rotation degree=2, persist=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,422.0)
+:Sending Touch (ACTION_UP): 0:(747.6213,429.27295)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(396.0,829.0)
+:Sending Touch (ACTION_UP): 0:(401.31497,827.02875)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1549.0,1146.0)
+:Sending Touch (ACTION_UP): 0:(1549.2137,1143.3696)
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1892.0,649.0)
+:Sending Touch (ACTION_UP): 0:(1883.6725,647.79645)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 170    // KEYCODE_TV
+:Sending Key (ACTION_UP): 170    // KEYCODE_TV
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(261.0,904.0)
+:Sending Touch (ACTION_UP): 0:(262.16437,915.12244)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 54    // KEYCODE_Z
+:Sending Key (ACTION_UP): 54    // KEYCODE_Z
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1250.0,2272.0)
+:Sending Touch (ACTION_UP): 0:(1266.8674,2262.193)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(598.0,1133.0)
+:Sending Touch (ACTION_UP): 0:(589.5384,1133.3369)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(704.0,495.0)
+:Sending Touch (ACTION_UP): 0:(701.9167,484.3055)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.me.PersonalDataActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1918.0,282.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(1918.0972,261.5503) 1:(619.0,1038.0)
+:Sending Touch (ACTION_MOVE): 0:(1918.4672,241.02235) 1:(621.9305,1039.7101)
+:Sending Touch (ACTION_MOVE): 0:(1918.7675,228.71573) 1:(637.2387,1040.4984)
+:Sending Touch (ACTION_MOVE): 0:(1918.8527,216.94806) 1:(653.51465,1040.7961)
+:Sending Touch (ACTION_MOVE): 0:(1918.8823,209.47968) 1:(659.7501,1041.433)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(1919.1011,197.34222) 1:(669.6319,1042.1437)
+:Sending Touch (ACTION_UP): 0:(1919.4214,187.3907)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2200.0,951.0)
+:Sending Touch (ACTION_UP): 0:(2184.6143,955.41565)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(998.0,687.0)
+:Sending Touch (ACTION_UP): 0:(981.8126,688.7899)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(586.0,106.0)
+:Sending Touch (ACTION_UP): 0:(576.4422,100.56274)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(604.0,693.0)
+:Sending Touch (ACTION_UP): 0:(591.1088,702.7533)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(870.0,629.0)
+:Sending Touch (ACTION_UP): 0:(890.9043,637.06366)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(328.0,640.0)
+:Sending Touch (ACTION_UP): 0:(331.65192,639.802)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1950.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(1949.4943,1085.8324)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1461.0,1081.0)
+:Sending Touch (ACTION_UP): 0:(1464.8462,1082.0692)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1311.0,629.0)
+:Sending Touch (ACTION_UP): 0:(1328.133,647.5197)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1571.0,142.0)
+:Sending Touch (ACTION_UP): 0:(1565.1398,140.7751)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(392.0,40.0)
+:Sending Touch (ACTION_UP): 0:(391.47803,40.314835)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(202.0,903.0)
+:Sending Touch (ACTION_UP): 0:(190.3255,905.6365)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1764.0,1354.0)
+:Sending Touch (ACTION_UP): 0:(1757.5735,1349.0387)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2034.0,1248.0)
+:Sending Touch (ACTION_UP): 0:(2047.4525,1233.1848)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(2212.0,531.0)
+:Sending Touch (ACTION_UP): 0:(2210.1003,546.2006)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 1    // KEYCODE_SOFT_LEFT
+:Sending Key (ACTION_UP): 1    // KEYCODE_SOFT_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1528.0,554.0)
+:Sending Touch (ACTION_UP): 0:(1529.9719,553.6178)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 218    // KEYCODE_KANA
+:Sending Key (ACTION_UP): 218    // KEYCODE_KANA
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2040.0,485.0)
+:Sending Touch (ACTION_UP): 0:(2037.4678,484.3631)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(415.0,766.0)
+:Sending Touch (ACTION_UP): 0:(404.62244,766.0289)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1333.0,753.0)
+:Sending Touch (ACTION_UP): 0:(1338.1686,753.2476)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(453.0,1274.0)
+:Sending Touch (ACTION_UP): 0:(468.43408,1263.3042)
+    //[calendar_time:2019-05-07 08:53:47.594  system_uptime:173610896]
+    // Sending event #600
+Sleeping for 300 milliseconds
+    //[calendar_time:2019-05-07 08:53:47.906  system_uptime:173611207]
+    // Sending event #600
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(665.0,517.0)
+:Sending Touch (ACTION_UP): 0:(652.192,499.2314)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(56.0,2191.0)
+:Sending Touch (ACTION_UP): 0:(58.704575,2183.376)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(367.0,2322.0)
+:Sending Touch (ACTION_UP): 0:(366.2157,2313.5635)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.CourseActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 94    // KEYCODE_PICTSYMBOLS
+:Sending Key (ACTION_UP): 94    // KEYCODE_PICTSYMBOLS
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1724.0,642.0)
+:Sending Touch (ACTION_UP): 0:(1724.3298,642.1443)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2272.0,397.0)
+:Sending Touch (ACTION_UP): 0:(2268.8245,393.26752)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(604.0,441.0)
+:Sending Touch (ACTION_UP): 0:(604.99133,447.31375)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(595.0,256.0)
+:Sending Touch (ACTION_UP): 0:(600.12915,253.69833)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1247.0,385.0)
+:Sending Touch (ACTION_UP): 0:(1230.2355,380.07843)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(64.0,1430.0)
+:Sending Touch (ACTION_UP): 0:(61.055264,1429.5759)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(935.0,993.0)
+:Sending Touch (ACTION_MOVE): 0:(936.9566,979.2073)
+:Sending Touch (ACTION_MOVE): 0:(937.1177,971.5756)
+:Sending Touch (ACTION_MOVE): 0:(944.35596,959.4337)
+:Sending Touch (ACTION_MOVE): 0:(947.9912,948.5476)
+:Sending Touch (ACTION_MOVE): 0:(953.8014,943.35223)
+:Sending Touch (ACTION_MOVE): 0:(959.34357,922.074)
+:Sending Touch (ACTION_MOVE): 0:(960.4498,907.55225)
+:Sending Touch (ACTION_UP): 0:(963.1006,902.1578)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1376.0,1735.0)
+:Sending Touch (ACTION_UP): 0:(1377.077,1736.4618)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(505.0,1926.0)
+:Sending Touch (ACTION_UP): 0:(496.56418,1930.992)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,899.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(27.711643,900.2244)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2161.0,627.0)
+:Sending Touch (ACTION_UP): 0:(2166.6572,625.7167)
+Sleeping for 300 milliseconds
+:Sending rotation degree=1, persist=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(420.0,2343.0)
+:Sending Touch (ACTION_UP): 0:(420.00473,2339.6003)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(612.0,924.0)
+:Sending Touch (ACTION_UP): 0:(612.9409,927.65643)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(634.0,2158.0)
+:Sending Touch (ACTION_UP): 0:(634.5816,2175.2212)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(950.0,1705.0)
+:Sending Touch (ACTION_UP): 0:(948.4421,1712.93)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=true
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1259.0,1627.0)
+:Sending Touch (ACTION_MOVE): 0:(1259.3636,1617.0374)
+:Sending Touch (ACTION_UP): 0:(1265.9218,1608.054)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(906.0,1968.0)
+:Sending Touch (ACTION_UP): 0:(909.2017,1970.7161)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(238.0,242.0)
+:Sending Touch (ACTION_UP): 0:(243.38254,236.88362)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(990.0,803.0)
+:Sending Touch (ACTION_MOVE): 0:(992.11884,796.6405)
+:Sending Touch (ACTION_UP): 0:(997.9477,795.1893)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 231    // KEYCODE_VOICE_ASSIST
+:Sending Key (ACTION_UP): 231    // KEYCODE_VOICE_ASSIST
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 275    // KEYCODE_MEDIA_STEP_BACKWARD
+    //[calendar_time:2019-05-07 08:54:05.941  system_uptime:173629243]
+    // Sending event #700
+:Sending Key (ACTION_UP): 275    // KEYCODE_MEDIA_STEP_BACKWARD
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(101.0,2267.0)
+:Sending Touch (ACTION_UP): 0:(105.22716,2270.082)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(378.0,898.0)
+:Sending Touch (ACTION_UP): 0:(367.71933,919.33826)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(746.0,622.0)
+:Sending Touch (ACTION_UP): 0:(749.32416,624.2977)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(804.0,1985.0)
+:Sending Touch (ACTION_UP): 0:(812.0205,1992.5438)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(1083.0,2011.0)
+:Sending Touch (ACTION_UP): 0:(1075.1537,2010.4038)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(32.0,1321.0)
+:Sending Touch (ACTION_UP): 0:(24.820051,1339.4087)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(903.0,17.0)
+:Sending Touch (ACTION_UP): 0:(897.258,10.039135)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1271.0,1069.0)
+:Sending Touch (ACTION_UP): 0:(1271.0339,1068.1704)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(13.0,1187.0)
+:Sending Touch (ACTION_UP): 0:(12.86474,1176.4718)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1210.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(1210.8253,1783.0994)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1157.0,801.0)
+:Sending Touch (ACTION_UP): 0:(1162.6526,797.6439)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(452.0,2169.0)
+:Sending Touch (ACTION_MOVE): 0:(451.90195,2160.1401)
+:Sending Touch (ACTION_MOVE): 0:(440.7453,2138.8599)
+:Sending Touch (ACTION_MOVE): 0:(432.57974,2120.0938)
+:Sending Touch (ACTION_MOVE): 0:(423.72498,2107.1746)
+:Sending Touch (ACTION_MOVE): 0:(422.5655,2106.768)
+:Sending Touch (ACTION_MOVE): 0:(413.38528,2096.806)
+:Sending Touch (ACTION_MOVE): 0:(405.57867,2096.5156)
+:Sending Touch (ACTION_UP): 0:(397.20624,2075.402)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1348.0,2279.0)
+:Sending Touch (ACTION_UP): 0:(1348.6798,2272.3208)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(205.0,1740.0)
+:Sending Touch (ACTION_UP): 0:(202.41176,1744.0712)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.me.SettingsActivity } in package me.tictok.linear
+:Sending Key (ACTION_DOWN): 28    // KEYCODE_CLEAR
+:Sending Key (ACTION_UP): 28    // KEYCODE_CLEAR
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(6.0,813.0)
+:Sending Touch (ACTION_UP): 0:(15.622172,815.7068)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 151    // KEYCODE_NUMPAD_7
+:Sending Key (ACTION_UP): 151    // KEYCODE_NUMPAD_7
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,1305.0)
+:Sending Touch (ACTION_MOVE): 0:(687.0643,1300.4259)
+:Sending Touch (ACTION_MOVE): 0:(687.86566,1300.4159)
+:Sending Touch (ACTION_MOVE): 0:(689.647,1295.9044)
+:Sending Touch (ACTION_MOVE): 0:(691.07996,1289.4087)
+:Sending Touch (ACTION_MOVE): 0:(692.77924,1285.115)
+:Sending Touch (ACTION_MOVE): 0:(694.909,1279.6626)
+:Sending Touch (ACTION_UP): 0:(697.341,1279.2375)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(793.0,2176.0)
+:Sending Touch (ACTION_UP): 0:(791.8372,2175.8682)
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.RecommendActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(561.0,805.0)
+:Sending Touch (ACTION_UP): 0:(556.8761,800.927)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(511.0,992.0)
+:Sending Touch (ACTION_UP): 0:(519.46893,1008.65936)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+    // activityResuming(me.tictok.linear)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1325.0,1958.0)
+:Sending Touch (ACTION_UP): 0:(1330.2188,1952.7286)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Touch (ACTION_DOWN): 0:(825.0,326.0)
+:Sending Touch (ACTION_UP): 0:(826.7436,325.46625)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1144.0,1654.0)
+:Sending Touch (ACTION_UP): 0:(1135.7678,1645.0651)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(338.0,1233.0)
+:Sending Touch (ACTION_UP): 0:(321.80844,1232.0576)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(637.0,1037.0)
+:Sending Touch (ACTION_UP): 0:(640.5818,1040.1659)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(850.0,684.0)
+:Sending Touch (ACTION_UP): 0:(850.1741,684.7945)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1285.0,905.0)
+:Sending Touch (ACTION_UP): 0:(1299.5328,923.586)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1283.0,2227.0)
+:Sending Touch (ACTION_UP): 0:(1288.7307,2209.9658)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1211.0,2367.0)
+:Sending Touch (ACTION_UP): 0:(1201.9038,2365.2234)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(756.0,63.0)
+:Sending Touch (ACTION_UP): 0:(774.479,63.51273)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 109    // KEYCODE_BUTTON_SELECT
+:Sending Key (ACTION_UP): 109    // KEYCODE_BUTTON_SELECT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(57.0,1030.0)
+:Sending Touch (ACTION_UP): 0:(60.02886,1029.9203)
+    //[calendar_time:2019-05-07 08:54:21.341  system_uptime:173644642]
+    // Sending event #800
+Sleeping for 300 milliseconds
+    //[calendar_time:2019-05-07 08:54:21.642  system_uptime:173644943]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(1019.0,1826.0)
+:Sending Touch (ACTION_UP): 0:(1018.7497,1825.8184)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(707.0,2151.0)
+:Sending Touch (ACTION_UP): 0:(705.987,2151.0864)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(671.0,557.0)
+:Sending Touch (ACTION_UP): 0:(677.2314,577.0233)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(344.0,1569.0)
+:Sending Touch (ACTION_UP): 0:(346.2005,1575.2098)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(347.0,637.0)
+:Sending Touch (ACTION_UP): 0:(345.78387,639.4739)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+    // activityResuming(me.tictok.linear)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(505.0,1206.0)
+:Sending Touch (ACTION_UP): 0:(510.23492,1200.713)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(514.0,2362.0)
+:Sending Touch (ACTION_UP): 0:(509.4575,2363.687)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(885.0,2241.0)
+:Sending Touch (ACTION_UP): 0:(887.30505,2243.861)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1365.0,1281.0)
+:Sending Touch (ACTION_UP): 0:(1384.2858,1283.6696)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1379.0,1865.0)
+:Sending Touch (ACTION_UP): 0:(1360.2798,1846.8818)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(307.0,2051.0)
+:Sending Touch (ACTION_MOVE): 0:(290.4448,2057.0435)
+:Sending Touch (ACTION_MOVE): 0:(284.25967,2063.5183)
+:Sending Touch (ACTION_MOVE): 0:(277.86502,2082.882)
+:Sending Touch (ACTION_MOVE): 0:(258.9936,2090.3152)
+:Sending Touch (ACTION_MOVE): 0:(246.9576,2098.3394)
+:Sending Touch (ACTION_UP): 0:(238.73189,2112.685)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(359.0,1241.0)
+:Sending Touch (ACTION_MOVE): 0:(359.04422,1232.8923)
+:Sending Touch (ACTION_MOVE): 0:(359.06607,1212.6251)
+:Sending Touch (ACTION_MOVE): 0:(359.1214,1193.5077)
+:Sending Touch (ACTION_MOVE): 0:(359.15692,1177.001)
+:Sending Touch (ACTION_MOVE): 0:(359.1733,1159.0714)
+:Sending Touch (ACTION_MOVE): 0:(359.2332,1155.7542)
+:Sending Touch (ACTION_MOVE): 0:(359.2782,1150.3522)
+:Sending Touch (ACTION_MOVE): 0:(359.30435,1137.0687)
+:Sending Touch (ACTION_MOVE): 0:(359.35638,1129.1184)
+:Sending Touch (ACTION_UP): 0:(359.38217,1110.4554)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(198.0,2282.0)
+:Sending Touch (ACTION_UP): 0:(198.07948,2275.8362)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(627.0,1919.0)
+:Sending Touch (ACTION_UP): 0:(634.4166,1920.7823)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(82.0,1919.0)
+:Sending Touch (ACTION_UP): 0:(73.960785,1913.4192)
+Sleeping for 300 milliseconds
+:Sending rotation degree=1, persist=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,1068.0)
+:Sending Touch (ACTION_UP): 0:(483.03842,1068.1486)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(772.0,877.0)
+:Sending Touch (ACTION_UP): 0:(778.48846,887.15204)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1377.0,690.0)
+:Sending Touch (ACTION_UP): 0:(1361.1265,702.55914)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1056.0,831.0)
+:Sending Touch (ACTION_UP): 0:(1052.1588,836.66785)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1058.0,1176.0)
+:Sending Touch (ACTION_UP): 0:(1059.2847,1178.3799)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,2239.0)
+:Sending Touch (ACTION_UP): 0:(568.51514,2235.6675)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(942.0,2332.0)
+    // activityResuming(me.tictok.linear)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(929.1057,2325.643)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(897.0,1966.0)
+:Sending Touch (ACTION_UP): 0:(891.95496,1967.5968)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=me.tictok.linear/.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=me.tictok.linear/.WelcomeActivity } in package me.tictok.linear
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.MainActivity } in package me.tictok.linear
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+    //[calendar_time:2019-05-07 08:54:36.764  system_uptime:173660066]
+    // Sending event #900
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(1078.0468,1195.874)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1408.0,404.0)
+:Sending Touch (ACTION_UP): 0:(1406.3622,405.33405)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(99.0,532.0)
+:Sending Touch (ACTION_UP): 0:(107.84464,529.92053)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(152.0,1317.0)
+:Sending Touch (ACTION_UP): 0:(151.167,1316.4353)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+    // activityResuming(me.tictok.linear)
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(650.0,269.0)
+:Sending Touch (ACTION_MOVE): 0:(670.8275,276.80563)
+:Sending Touch (ACTION_MOVE): 0:(688.46277,291.28043)
+:Sending Touch (ACTION_MOVE): 0:(708.34406,307.07104)
+:Sending Touch (ACTION_MOVE): 0:(728.2327,309.95654)
+:Sending Touch (ACTION_MOVE): 0:(745.66833,313.08197)
+:Sending Touch (ACTION_MOVE): 0:(759.70197,313.8285)
+:Sending Touch (ACTION_MOVE): 0:(759.79706,325.89798)
+:Sending Touch (ACTION_MOVE): 0:(762.13715,342.08044)
+:Sending Touch (ACTION_UP): 0:(768.2871,355.79224)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,322.0)
+:Sending Touch (ACTION_UP): 0:(345.43808,316.69464)
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(380.0,460.0)
+:Sending Touch (ACTION_UP): 0:(382.32025,465.59518)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,396.0)
+:Sending Touch (ACTION_UP): 0:(520.05554,401.2553)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(765.0,1559.0)
+:Sending Touch (ACTION_UP): 0:(765.005,1557.7377)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1043.0,1434.0)
+:Sending Touch (ACTION_UP): 0:(1044.0807,1433.9506)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(me.tictok.linear)
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(1324.0,545.0)
+:Sending Touch (ACTION_UP): 0:(1323.0098,565.8302)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=me.tictok.linear/.sport.ManageRecordActivity } in package me.tictok.linear
+:Sending Touch (ACTION_DOWN): 0:(1324.0,507.0)
+:Sending Touch (ACTION_UP): 0:(1320.9271,483.45462)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 165    // KEYCODE_INFO
+:Sending Key (ACTION_UP): 165    // KEYCODE_INFO
+Sleeping for 300 milliseconds
+:Sending rotation degree=3, persist=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1148.0,1170.0)
+:Sending Touch (ACTION_UP): 0:(1145.5695,1178.0157)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1175.0,684.0)
+:Sending Touch (ACTION_UP): 0:(1176.0597,685.1914)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 212    // KEYCODE_EISU
+:Sending Key (ACTION_UP): 212    // KEYCODE_EISU
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 140    // KEYCODE_F10
+:Sending Key (ACTION_UP): 140    // KEYCODE_F10
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 167    // KEYCODE_CHANNEL_DOWN
+:Sending Key (ACTION_UP): 167    // KEYCODE_CHANNEL_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1003.0,136.0)
+:Sending Touch (ACTION_UP): 0:(1017.7395,136.76164)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,868.0)
+:Sending Touch (ACTION_UP): 0:(365.16827,866.75555)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1872.0,950.0)
+:Sending Touch (ACTION_UP): 0:(1867.4484,950.5446)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1678.0,275.0)
+:Sending Touch (ACTION_UP): 0:(1670.1141,288.24057)
+Sleeping for 300 milliseconds
+:Sending rotation degree=0, persist=true
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(28.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(27.61069,1672.7517)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1396.0,2044.0)
+:Sending Touch (ACTION_UP): 0:(1396.134,2039.3625)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(621.0,518.0)
+:Sending Touch (ACTION_UP): 0:(620.2278,510.38126)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 45    // KEYCODE_Q
+:Sending Key (ACTION_UP): 45    // KEYCODE_Q
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(763.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(760.1551,1774.7789)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1152.0,1320.0)
+:Sending Touch (ACTION_MOVE): 0:(1158.2704,1320.2585)
+:Sending Touch (ACTION_MOVE): 0:(1161.6189,1321.1089)
+:Sending Touch (ACTION_MOVE): 0:(1166.3425,1323.0203)
+:Sending Touch (ACTION_MOVE): 0:(1174.2397,1325.9712)
+:Sending Touch (ACTION_MOVE): 0:(1177.231,1326.2078)
+:Sending Touch (ACTION_MOVE): 0:(1183.0763,1327.3966)
+:Sending Touch (ACTION_UP): 0:(1192.8956,1328.8982)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1184.0,2066.0)
+:Sending Touch (ACTION_UP): 0:(1192.0249,2058.7747)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(516.0,304.0)
+:Sending Touch (ACTION_UP): 0:(516.8212,293.98022)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Events injected: 1000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=8 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=163677ms (0ms mobile, 0ms wifi, 163677ms not connected)
+// Monkey finished
