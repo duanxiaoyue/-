@@ -1,0 +1,35 @@
+Solar：
+包名：com.example.lx.solarfragment
+命令一：adb shell monkey -p com.example.lx.solarfragment -v -v -v --ignore-crashes --ignore-timeouts --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Solar_Test1.txt
+
+命令说明：提供最详细的反馈信息，忽略异常崩溃，忽略ANR，忽略native层的代码，忽略一些许可错误。设置每个时间结束后延迟300ms再继续下一个事件
+50%的触摸事件，5%滑动事件,5%屏幕旋转事件,5%主要导航事件,10%系统事件,5%Activity启动事件,10%键盘翻转事件，5%其他事件  共执行1000次随机事件
+将结果保存到D:\admin\monkey\Solar_Test.txt文件中
+
+
+命令二：adb shell monkey -p com.example.lx.solarfragment -v -v -v --ignore-timeouts --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Solar_Test2.txt
+（注：不忽略崩溃问题）
+
+命令三：adb shell monkey -p com.example.lx.solarfragment -v -v -v --ignore-crashes  --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Solar_Test3.txt
+（注：不忽略超时问题）
+
+命令四：adb shell monkey -p com.example.lx.solarfragment -v -v -v --ignore-crashes --ignore-timeouts --ignore-native-crashes --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Solar_Test4.txt
+（注：不忽略许可错误）
+
+
+
+Linear：包名：me.tictok.linear
+命令一：adb shell monkey -p me.tictok.linear -v -v -v --ignore-crashes --ignore-timeouts --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Linear_Test1.txt
+
+命令说明：提供最详细的反馈信息，忽略异常崩溃，忽略ANR，忽略native层的代码，忽略一些许可错误。设置每个时间结束后延迟300ms再继续下一个事件
+50%的触摸事件，5%滑动事件,5%屏幕旋转事件,5%主要导航事件,10%系统事件,5%Activity启动事件,10%键盘翻转事件，5%其他事件  共执行1000次随机事件
+将结果保存到D:\admin\monkey\Linear_Test.txt文件中
+
+命令二：adb shell monkey -p me.tictok.linear -v -v -v  --ignore-timeouts --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Linear_Test2.txt
+（不忽略崩溃问题）
+
+命令三：adb shell monkey -p me.tictok.linear -v -v -v --ignore-crashes --ignore-native-crashes --ignore-security-exceptions --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Linear_Test3.txt
+（不忽略超时问题）
+
+命令四：adb shell monkey -p me.tictok.linear -v -v -v --ignore-crashes --ignore-timeouts --ignore-native-crashes --throttle 300 --pct-touch 50 --pct-motion 5 --pct-rotation 5 --pct-majornav 5 --pct-syskeys 5 --pct-appswitch 5 --pct-flip 10 --pct-anyevent 5 1000 >D:\admin\monkey\Linear_Test4.txt
+（不忽略许可错误）

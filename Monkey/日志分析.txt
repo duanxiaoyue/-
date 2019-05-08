@@ -1,0 +1,20 @@
+Solar：
+命令一：忽略各种异常的情况下，日志文件中没有Exception，及injection failed。但在执行完之后手动退出时APP发生崩溃
+
+命令二：不忽略崩溃问题的情况下发生 java.lang.IllegalArgumentException: Empty keySpec at Binary XML file line #39错误
+可能是xml文件修改发生的错误，或是Activity跳转发生错误
+测试过程中首页与任务页发生了重合，可能是Activity的跳转，或是缓存，或者是模拟器的原因
+
+命令三：不忽略超时问题的情况下日志文件中没有Exception及其他错误信息，没有超时退出
+
+命令四：不忽略许可错误的情况下日志文件中没有Exception，没有错误退出
+
+Linear：
+命令一：忽略各种异常的情况下日志文件中没有异常
+
+命令二：不忽略崩溃问题的情况下日志文件中没有Exception及其他异常，没有异常崩溃
+
+命令三：不忽略超时问题时出现java.lang.IllegalArgumentException: Empty keySpec at Binary XML file line #39
+可能是模拟器或者Activity的问题
+
+命令四：不忽略许可错误的情况下日志文件中没有Exception及其他异常，没有异常崩溃
