@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--详情按钮-->
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_more"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/details1"/>
+
+    </LinearLayout>
+
+    <!--轮播图-->
+    <RelativeLayout
+        android:id="@+id/rl_fli"
+        android:layout_below="@id/ll1"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_flipper"
+        android:layout_height="300dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <AdapterViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:flipInterval="2000"
+            android:layout_alignParentTop="true">
+        </AdapterViewFlipper>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/shape_flipper"/>
+
+
+    <TextView
+        android:layout_below="@+id/rl_fli"
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="选取目标番茄个数"
+        android:textColor="#909090"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:text="ONE"
+            android:textSize="25sp"
+            android:background="@drawable/shape_btn_main"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@id/bt1"
+            android:id="@+id/bt2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="TWO"
+            android:textSize="25sp"
+            android:background="@drawable/shape_btn_main"/>
+
+        <Button
+            android:layout_below="@+id/bt1"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bt3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:text="THREE"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_btn_main"/>
+        <Button
+            android:layout_below="@id/bt2"
+            android:layout_toRightOf="@id/bt3"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bt4"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="FOUR"
+            android:textSize="25sp"
+            android:background="@drawable/shape_btn_main"/>
+        <Button
+            android:layout_below="@id/bt3"
+            android:id="@+id/bt5"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:text="FIVE"
+            android:textSize="25sp"
+            android:background="@drawable/shape_btn_main"/>
+        <Button
+            android:layout_below="@id/bt4"
+            android:layout_toRightOf="@id/bt5"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bt6"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="SIX"
+            android:textSize="25sp"
+            android:background="@drawable/shape_btn_main"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

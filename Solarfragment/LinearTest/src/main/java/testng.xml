@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Solar" verbose="10">
+
+    <test name="SolarTest" preserve-order="true">
+        <classes>
+            <class name="com.example.lineartest.testCases.testLogin"/>
+            <class name="com.example.lineartest.testCases.testFind"/>
+            <class name="com.example.lineartest.testCases.testFriend"/>
+            <class name="com.example.lineartest.testCases.testSport"/>
+            <class name="com.example.lineartest.testCases.testMine"/>
+        </classes>
+    </test>
+</suite>
