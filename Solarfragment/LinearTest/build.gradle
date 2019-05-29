@@ -15,6 +15,9 @@ dependencies {
     implementation files('libs/selenium-server-standalone-3.141.59.jar')
     implementation 'org.testng:testng:6.9.6'
     implementation 'com.google.guava:guava:27.1-jre'
+    implementation files('libs/reportng-1.1.5.jar')
+    implementation files('libs/freemarker.jar')
+    implementation files('libs/javax.mail-1.6.2.jar')
 }
 
 sourceCompatibility = "7"

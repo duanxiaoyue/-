@@ -39,7 +39,6 @@ public class testPersonal extends BaseTest {
             assert (false);
             System.out.println("testGrade失败");
         }
-
     }
 
     //切换账号

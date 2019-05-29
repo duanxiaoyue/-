@@ -1,13 +1,11 @@
 package com.example.solartest.testCases;
 
 import com.example.solartest.base.BaseTest;
-import com.example.solartest.dataProvider.NSDataProvider;
 import com.example.solartest.pages.LoginPage;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import sun.rmi.runtime.Log;
 
 public class testLogin extends BaseTest {
 
